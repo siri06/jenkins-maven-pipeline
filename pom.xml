@@ -40,18 +40,16 @@
 	<repository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
-		<url>http://35.237.14.184:8081/repository/maven-releases/</url>
+		<url>http://35.237.20.255:8081/repository/maven-releases/</url>
 	</repository>
  
 	<snapshotRepository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
-		<url>http://35.237.14.184:8081/repository/maven-snapshots/</url>
+		<url>http://35.237.20.255:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
-</distributionManagement>
-
-
-	<build>
+       </distributionManagement>
+       <build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
